@@ -6,7 +6,7 @@ spec:
   replicas: 1
   selector:
       matchLabels:
-        app: hello-world
+        app: hello-world-test
   template:
     metadata:
       labels:
@@ -22,7 +22,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: hello-world-service
+  name: hello-world-test-service
 spec:
   selector:
     app: hello-world-test
