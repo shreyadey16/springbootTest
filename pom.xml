@@ -21,7 +21,6 @@
         	<sonar.password>admin123</sonar.password>
         	<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>
 		<sonar.java.binaries>target</sonar.java.binaries>
-		<harnessArgLine></harnessArgLine>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -51,9 +50,6 @@
     				<groupId>org.apache.maven.plugins</groupId>
     				<artifactId>maven-surefire-plugin</artifactId>
     				<version>2.19.1</version>
-    				<configuration>
-        				<argLine>${harnessArgLine}  @{argLine} </argLine>
-    				</configuration>
 			</plugin>
 			<plugin>
           			<groupId>org.apache.maven.plugins</groupId>
