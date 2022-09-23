@@ -20,7 +20,6 @@
         	<sonar.login>admin</sonar.login>
         	<sonar.password>admin123</sonar.password>
         	<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>
-        	<sonar.java.binaries>target</sonar.java.binaries>
 	</properties>
 	<dependencies>
 		<dependency>
